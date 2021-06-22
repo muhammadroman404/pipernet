@@ -1,0 +1,168 @@
+body{
+    margin: auto;
+    font-family: Roboto,sans-serif;
+}
+
+.pipernet{
+    background: url("PiperNet.png") center no-repeat;
+    background-size: cover;
+    margin-top:84px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+   
+  
+
+
+}
+.pipertext{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.block{
+    width: 100%;
+    max-width: 1219px;
+    margin: auto;
+   
+}
+
+
+
+.problemhead,.ppc_head, .teamhead{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+
+}
+
+.problemtext{
+    
+    font-style: normal;
+    font-size: 32px;
+    line-height: 37.5px;
+    color: #000000;
+
+}
+
+.blue{
+    background: url("Bluefon.png") center no-repeat;
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.bluetext{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 56.25px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.ppctxt{
+    font-style: normal;
+    font-size: 32px;
+    line-height: 37.5px;
+    color: #000000;
+
+}
+
+.ppclogo{
+    float:left;
+    padding-right: 50px;
+}
+
+.namecard{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+
+.team{
+    background-color: #EEEEEE;
+    padding-top: 50px;
+    padding-bottom: 120px;
+
+}
+
+.cardsimg{
+    width: 350px;
+    height: 283px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color: #333333;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footertext{
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21.1px;
+    color: #FFFFFF;
+
+    width: 540px;
+   height: 64px;
+   margin: 0 auto;
+}
+
+
+
+.header{
+    width: 100%;
+    background-color: #007765;
+    height:84px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 21;
+    transition: height 1s ease-in-out;
+
+}
+.headerblock{
+    height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.menulink
+{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #fff;
+    transition: color .2s linear;
+    transition: font-size .3s linear;
+
+}
+
